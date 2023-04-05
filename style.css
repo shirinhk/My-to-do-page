@@ -224,10 +224,10 @@ label {
 
 @media (max-width: 575px) {
   .title {
-    font-size: 15px;
+    font-size: 16px;
   }
   li span {
-    font-size: 12px;
+    font-size: 14px;
   }
   li .span_delete {
     font-size: 6px;
