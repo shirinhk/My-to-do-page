@@ -67,6 +67,7 @@ li span {
   position: relative;
   padding-left: 20px;
   overflow: auto;
+  font-size: 14px;
 }
 
 .newline::before {
