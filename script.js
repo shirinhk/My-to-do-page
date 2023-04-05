@@ -104,8 +104,10 @@ checkBox.addEventListener("change", function () {
 
 // SEARCH FUNCTION
 inputSearch.addEventListener("keyup", function () {
+  const searchValue = inputSearch.value.toLowerCase();
   for (let item of ul.children) {
-    if (item.firstElementChild.textContent.indexOf(inputSearch.value) !== -1) {
+    const textContent = item.firstElementChild.textContent.toLowerCase();
+    if (textContent.includes(searchValue)) {
       item.style.display = "flex";
     } else {
       item.style.display = "none";
